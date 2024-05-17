@@ -1,0 +1,23 @@
+/*styling our page*/
+body{
+    background-color: hsla(240, 61%, 35%, 0.32);
+}
+#counterLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+div button:hover{
+    cursor: pointer;
+}
+
+#containerBtn{
+    text-align: center;
+    margin: auto;
+}
+
+div button{
+    border: 3px solid hsl(356, 35%, 72%);
+    font-size: 2em;
+}
