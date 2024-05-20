@@ -12,11 +12,8 @@ let answer = Math.floor(Math.random() * 100 + 1);
 //targeting html elements to fetch data and change it
 let text = document.getElementById("text");
 
-
-
 //function to while the guess button is clicked
-const guess = document.getElementById("guessBtn");
-guess.onclick = function() {
+document.getElementById("guessBtn").onclick = () => {
     check();
 }
 
@@ -27,9 +24,6 @@ function check() {
     const userNum = document.getElementById("inputNum");
     let guessNum;
     guessNum = Number(userNum.value);
-
-    // console.log(guessNum, typeof (guessNum));
-    // console.log(answer);
 
     if (guessNum > 100 || guessNum < 0) {
         text.innerHTML = "Enter a valid number";

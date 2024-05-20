@@ -6,10 +6,8 @@ const toFarenight = document.getElementById("toFarenight");
 const toCelcius = document. getElementById("toCelcius");
 
 //our submit button
-const submit = document.getElementById("submit");
-
 //our function after submit button is pressed
-submit.onclick = function(){
+document.getElementById("submit").onclick = () => {
     converter();
 }
 
