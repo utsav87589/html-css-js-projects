@@ -9,3 +9,7 @@
 #3. Temperature conversion program to convert temperature from one unit to another.
 
 #4. A dice roller program where we can roll dices and can get some random outputs. It is based on math.random and arrays in javascript.
+
+#5. A simple digital clock using the date in the javascript
+
+#6. A stopwatch based on javascript date and time concept
