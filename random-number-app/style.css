@@ -16,6 +16,12 @@ body{
     cursor: pointer;
 }
 
+#hint{
+    border: 4px solid;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
 div label{
     display: block;
 }

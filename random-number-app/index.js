@@ -5,6 +5,9 @@ const min = 1;
 const max = 100;
 let running = true;
 
+//our tracker
+let guessed = [];
+
 //our random number
 let answer = Math.floor(Math.random() * 100 + 1);
 
@@ -31,13 +34,19 @@ function check() {
     else {
         if (guessNum > answer) {
             text.innerHTML = "Your guess is high";
+            guessed.push(guessNum);
         }
         else if (guessNum < answer) {
             text.innerHTML = "Your guess is bit low";
+            guessed.push(guessNum);
         }
         else {
-            text.innerHTML = `congratulations, you are right!`;
+            text.innerHTML = `congratulations, you are right!, you took ${guessed.length} attempts`;
         }
     }    
     
-}   
+}
+
+document.getElementById("hint").onclick = () => {
+    document.getElementById("hintNum").textContent = `guessed number so far : ${[...guessed]}`;
+}
