@@ -15,3 +15,5 @@
 #6. A stopwatch based on javascript date and time concept
 
 #7. A calculator program
+
+#8. Rock paper and scissor game in js.
