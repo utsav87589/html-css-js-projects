@@ -13,3 +13,5 @@
 #5. A simple digital clock using the date in the javascript
 
 #6. A stopwatch based on javascript date and time concept
+
+#7. A calculator program
