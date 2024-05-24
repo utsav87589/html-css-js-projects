@@ -17,3 +17,5 @@
 #7. A calculator program
 
 #8. Rock paper and scissor game in js.
+
+#9. Weather app using fetch api.
